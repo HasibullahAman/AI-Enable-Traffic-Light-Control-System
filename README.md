@@ -47,16 +47,6 @@ For alternative installation methods including [Conda](https://anaconda.org/cond
 <details open>
 <summary>Usage</summary>
 
-#### CLI
-
-YOLOv8 may be used directly in the Command Line Interface (CLI) with a `yolo` command:
-
-```bash
-yolo predict model=yolov8n.pt source='https://ultralytics.com/images/bus.jpg'
-```
-
-`yolo` can be used for a variety of tasks and modes and accepts additional arguments, i.e. `imgsz=640`. See the YOLOv8 [CLI Docs](https://docs.ultralytics.com/usage/cli) for examples.
-
 #### Python
 
 YOLOv8 may also be used directly in a Python environment, and accepts the same [arguments](https://docs.ultralytics.com/usage/cfg/) as in the CLI example above:

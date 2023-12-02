@@ -55,11 +55,11 @@ YOLOv8 may also be used directly in a Python environment, and accepts the same [
 from ultralytics import YOLO
 
 # Load a model
-model = YOLO("yolov8n.yaml")  # build a new model from scratch
-model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
+model = YOLO("yolov8x.yaml")  # build a new model from scratch
+model = YOLO("yolov8x.pt")  # load a pretrained model (recommended for training)
 
 # Use the model
-model.train(data="coco128.yaml", epochs=3)  # train the model
+model.train(data="data.yaml", epochs=3)  # train the model
 metrics = model.val()  # evaluate model performance on the validation set
 results = model("https://ultralytics.com/images/bus.jpg")  # predict on an image
 path = model.export(format="onnx")  # export the model to ONNX format
@@ -77,9 +77,6 @@ YOLOv8 [Detect](https://docs.ultralytics.com/tasks/detect), [Segment](https://do
 
 All [Models](https://github.com/ultralytics/ultralytics/tree/main/ultralytics/cfg/models) download automatically from the latest Ultralytics [release](https://github.com/ultralytics/assets/releases) on first use.
 
-<details open><summary>Detection (COCO)</summary>
-
-See [Detection Docs](https://docs.ultralytics.com/tasks/detect/) for usage examples with these models trained on [COCO](https://docs.ultralytics.com/datasets/detect/coco/), which include 80 pre-trained classes.
 
 | Model                                                                                | size<br><sup>(pixels) | mAP<sup>val<br>50-95 | Speed<br><sup>CPU ONNX<br>(ms) | Speed<br><sup>A100 TensorRT<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>(B) |
 | ------------------------------------------------------------------------------------ | --------------------- | -------------------- | ------------------------------ | ----------------------------------- | ------------------ | ----------------- |

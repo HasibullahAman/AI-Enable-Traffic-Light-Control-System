@@ -18,11 +18,11 @@ pip install ultralytics
 pip install pygame
 
 ```
-Ardiuno:
-[Download the latest release](https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Linux_64bit.AppImage?_gl=1*1wvumxl*_ga*MTU0NDE3Njc0NS4xNzAwNjM4MjIw*_ga_NEXN8H46L5*MTcwMTU4NTMzMy4zLjEuMTcwMTU4NTM5Ny4wLjAuMA..*_fplc*WjUxMzdWbHdEN3lrQmRpdTBwQ1l6STA1aVBaNUg2U3lUekVjMGVBSTZxMVdtcmMzTmhucWV6VmlnemhrZW9mYkhsanBGdk9Ed3lueUJkaVM0dmZIUkdtNzdXTHRBZVZGSFQ2UU5tS04lMkJEbWElMkJqMGRVMyUyRnhGanlrOVkxejl3JTNEJTNE) (The download will start after you click this link. Check your browser’s download manager or the Downloads folder on your computer to find the downloaded file)
-Double-click the executable (.exe) file.
-Follow the instructions in the installation guide.
-When completing the setup, leave Run Arduino IDE ticked to launch the application, or launch it later from the Start Menu.
+### Ardiuno:
+1. [Download the latest release](https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Linux_64bit.AppImage?_gl=1*1wvumxl*_ga*MTU0NDE3Njc0NS4xNzAwNjM4MjIw*_ga_NEXN8H46L5*MTcwMTU4NTMzMy4zLjEuMTcwMTU4NTM5Ny4wLjAuMA..*_fplc*WjUxMzdWbHdEN3lrQmRpdTBwQ1l6STA1aVBaNUg2U3lUekVjMGVBSTZxMVdtcmMzTmhucWV6VmlnemhrZW9mYkhsanBGdk9Ed3lueUJkaVM0dmZIUkdtNzdXTHRBZVZGSFQ2UU5tS04lMkJEbWElMkJqMGRVMyUyRnhGanlrOVkxejl3JTNEJTNE) (The download will start after you click this link. Check your browser’s download manager or the Downloads folder on your computer to find the downloaded file)
+2. Double-click the executable (.exe) file.
+3. Follow the instructions in the installation guide.
+4. When completing the setup, leave Run Arduino IDE ticked to launch the application, or launch it later from the Start Menu.
 
 For alternative installation methods including [Conda](https://anaconda.org/conda-forge/ultralytics), [Docker](https://hub.docker.com/r/ultralytics/ultralytics), and Git, please refer to the [Quickstart Guide](https://docs.ultralytics.com/quickstart).
 

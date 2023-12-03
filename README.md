@@ -29,27 +29,6 @@ For alternative installation methods including [Conda](https://anaconda.org/cond
 </details>
 
 <details open>
-<summary>Usage</summary>
-
-#### Python
-
-YOLOv8 may also be used directly in a Python environment, and accepts the same [arguments](https://docs.ultralytics.com/usage/cfg/) as in the CLI example above:
-
-```python
-from ultralytics import YOLO
-
-# Load a model
-model = YOLO("yolov8x.yaml")  # build a new model from scratch
-model = YOLO("yolov8x.pt")  # load a pretrained model (recommended for training)
-
-# Use the model
-model.train(data="data.yaml", epochs=3)  # train the model
-metrics = model.val()  # evaluate model performance on the validation set
-results = model("https://ultralytics.com/images/bus.jpg")  # predict on an image
-path = model.export(format="onnx")  # export the model to ONNX format
-```
-
-See YOLOv8 [Python Docs](https://docs.ultralytics.com/usage/python) for more examples.
 
 </details>
 

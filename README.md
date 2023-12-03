@@ -28,9 +28,6 @@ For alternative installation methods including [Conda](https://anaconda.org/cond
 
 </details>
 
-<details open>
-
-</details>
 
 ## <div align="center">Models</div>
 
